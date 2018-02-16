@@ -423,7 +423,7 @@
 
   <copyField source="ident_tesi" dest="identifier_spell"/>
 
-  <copyField source="ocr_tiv" dest="content_spell" maxChars="1000"/>
+  <copyField source="ocr_tiv" dest="content_spell" maxChars="200"/>
 
   <!-- Similarity is the scoring routine for each document vs. a query.
        A custom similarity may be specified here, but the default is fine
